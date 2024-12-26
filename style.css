@@ -13,12 +13,23 @@ body {
     flex-direction: column;
     gap: 1rem;
     font-family: "Roboto", serif;
-    color: darkviolet;
+    color: #D166FF;
 }
 
 .title {
     font-family: "Playfair Display", serif;
     font-size: 3rem;
+}
+
+svg {
+    fill: #D166FF;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+img {
+    width: 360px;
+    height: 360px;
 }
 
 header {
@@ -30,7 +41,7 @@ header {
 }
 
 .header__background {
-    background-color: darkviolet;
+    background-color: #D166FF;
     max-height: 360px;
     z-index: -1;
     position: absolute;
@@ -50,8 +61,9 @@ header {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    text-shadow: 1px 1px 20px darkviolet ;
+    text-shadow: 1px 1px 20px #D166FF ;
     color: white;
+    font-size: 3rem;
 }
 
 .header__about-me-box {
@@ -82,7 +94,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 10px rgba(148, 0, 211, 0.5);
+    box-shadow: 5px 5px 10px rgba(209, 102, 255, 0.5);
     margin: 1rem;
 }
 .main__card img {
@@ -117,7 +129,8 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #56AD52;
+    background-color: #97D095;
+    color: #53007A
 }
 
 
