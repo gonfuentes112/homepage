@@ -65,4 +65,49 @@ header {
     font-size: 3rem;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.main__card-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.main__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(148, 0, 211, 0.5);
+    margin: 1rem;
+}
+.main__card img {
+    width: 100%;
+}
+
+.card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main__card-links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1.5;
+}
+
+.main__card-links .devicon-github-original{
+    font-size: 2rem;
+}
+
+.main__card-description {
+    max-width: 60%;
+    text-align: center;
+}
