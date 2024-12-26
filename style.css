@@ -124,3 +124,13 @@ footer {
 footer img {
     width: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.footer__link-buttons {
+    display: flex;
+    gap: 1rem;
+}
