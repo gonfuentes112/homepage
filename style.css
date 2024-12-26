@@ -99,6 +99,7 @@ main {
 }
 .main__card img {
     width: 100%;
+    height: auto;
 }
 
 .card__header {
@@ -136,6 +137,7 @@ footer {
 
 footer img {
     width: 100%;
+    height: auto;
 }
 
 a {
