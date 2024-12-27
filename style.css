@@ -129,6 +129,12 @@ footer {
     color: #53007A
 }
 
+.footer__phone svg,
+.footer__email svg  {
+    fill: #53007A;
+    display: none;
+}
+
 .footer__contact-info {
     display: flex;
     flex-direction: column;
@@ -188,6 +194,15 @@ a {
     }
     .footer__title {
         grid-column: 1/2;
+    }
+
+    .footer__phone svg,
+    .footer__email svg  {
+        fill: #53007A;
+        display: inline;
+        width: 1.5rem;
+        height: 1.5rem;
+        vertical-align: middle;
     }
 
     .footer__img {
@@ -256,6 +271,13 @@ a {
     .footer__title {
         grid-column: 1/3;
         font-size: 6rem;
+    }
+
+    .footer__phone svg,
+    .footer__email svg {
+        fill: #53007A;
+        display: inline;
+        vertical-align: middle;
     }
 
     .footer__contact-intro {
