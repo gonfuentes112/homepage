@@ -129,9 +129,13 @@ footer {
     color: #53007A
 }
 
+.footer__contact-info {
+    display: flex;
+    flex-direction: column;
+}
 
 .footer__img {
-    min-width: 80%;
+    max-width: 500px;
     height: auto;
 }
 
@@ -142,6 +146,38 @@ a {
 
 .footer__link-buttons {
     display: flex;
+    justify-content: center;
     gap: 1rem;
 }
 
+@media screen and (min-width: 600px){
+    .main__card-container{
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .main__card-title {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        font-size: 1.5rem;
+    }
+    .footer_title {
+        grid-column: 1/2;
+    }
+
+    .footer__img {
+        max-width: 100%;
+        height: auto;
+        grid-row: 1 / 3;
+        grid-column: 2;
+    }
+    
+    .footer__link-buttons {
+        font-size: 3rem;
+    }
+}
