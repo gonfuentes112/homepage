@@ -27,11 +27,6 @@ svg {
     height: 2.5rem;
 }
 
-img {
-    width: 360px;
-    height: 360px;
-}
-
 header {
     position: relative;
     display: flex;
@@ -135,8 +130,8 @@ footer {
 }
 
 
-footer img {
-    width: 100%;
+.footer__img {
+    min-width: 80%;
     height: auto;
 }
 
@@ -149,3 +144,4 @@ a {
     display: flex;
     gap: 1rem;
 }
+

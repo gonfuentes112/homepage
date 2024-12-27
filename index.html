@@ -18,7 +18,16 @@
         <div class="header__background">
         </div>
         <div class="header__img-container">
-            <img src="./img/pasan2-360w.webp" alt="" class="header__profile-pic">
+            <img 
+                alt="pasan2" 
+                class="header__profile-pic" 
+                srcset="./img/pasan2-360w.webp 360w,
+                        ./img/pasan2-480w.webp 480w,
+                        ./img/pasan2-600w.webp 600w"
+                sizes="(max-width:600px) 360px, 
+                        (max-width:1200px) 480px,
+                        600px"
+                src="./img/pasan2-360w.webp">
             <div class="header__name">PA-San</div>
         </div>
         <div class="header__about-me-box">
@@ -143,7 +152,16 @@
                 <a href="twitter.com" aria-label="twitter page"><i class="devicon-twitter-original"></i></a>           
             </div>  
         </div>
-        <img src="./img/pasan-360w.webp" alt="" srcset="">
+        <img 
+        alt="pasan"
+        class="footer__img" 
+        srcset="./img/pasan-360w.webp 360w,
+                ./img/pasan-480w.webp 480w,
+                ./img/pasan-600w.webp 600w"
+        sizes="(max-width:600px) 360px, 
+                (max-width:1200px) 480px,
+                600px"
+        src="./img/pasan-360w.webp">
     </footer>
     
 </body>
