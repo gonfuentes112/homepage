@@ -151,6 +151,23 @@ a {
 }
 
 @media screen and (min-width: 600px){
+    header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .header__img-container{
+        grid-column: 1;
+    }
+
+    .header__about-me-box {
+        padding: 0;
+        width: 100%;
+    }
+
+    .header__name {
+        transform: translateX(-50%) translateY(70%);
+    }
+
     .main__card-container{
         grid-template-columns: 1fr 1fr;
 
@@ -178,6 +195,7 @@ a {
     }
     
     .footer__link-buttons {
-        font-size: 3rem;
+        font-size: 4rem;
+        align-self: flex-start;
     }
 }
